@@ -1,0 +1,1239 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="A tabbed working dossier for the Chevening Scholarship 2027/28 Egypt award: eligibility, the OECD ODA residency rule, Egyptian degree equivalence, the full cycle timeline, course rules, essay guidance and a saved checklist.">
+<meta name="author" content="Ibrahim Elsharkawy">
+<meta name="theme-color" content="#f1f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f131a" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Chevening Egypt 2027/28">
+<meta property="og:description" content="Eligibility, the ODA residency rule, degree equivalence, timeline, courses, essays and a saved checklist for the Chevening Scholarship Egypt award.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%231c4f80'/%3E%3Cpath d='M9 16.5l4.5 4.5L23 11.5' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+/* baseline reset - matches the environment the page was authored for */
+:root{
+  color-scheme: light dark;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none !important}
+</style>
+<title>Chevening Egypt 2027/28</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ink:#141a24; --ink-2:#414c5e; --ink-3:#6b7689;
+  --ground:#f1f4f7; --surface:#ffffff; --surface-2:#e8edf3; --line:#d4dbe4;
+  --accent:#1c4f80; --accent-ink:#1c4f80; --accent-soft:#e2ecf6;
+  --alert:#a3341f; --alert-ink:#a3341f; --alert-soft:#f8e8e3;
+  --good:#2c6a4f; --good-soft:#e1efe8;
+  --gold:#8a6a1f;
+  --shadow:0 1px 2px rgba(20,26,36,.06), 0 8px 24px -14px rgba(20,26,36,.28);
+  --serif:"Newsreader", Georgia, "Times New Roman", serif;
+  --sans:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ink:#e7ecf3; --ink-2:#a9b4c5; --ink-3:#7d8a9c;
+    --ground:#0f131a; --surface:#171d26; --surface-2:#202835; --line:#2b3543;
+    --accent:#7fb4e2; --accent-ink:#9cc7ee; --accent-soft:#16283a;
+    --alert:#e2907a; --alert-ink:#eda58f; --alert-soft:#3a1f19;
+    --good:#7ec5a4; --good-soft:#15302a;
+    --gold:#d3ae5e;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -16px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --ink:#e7ecf3; --ink-2:#a9b4c5; --ink-3:#7d8a9c;
+  --ground:#0f131a; --surface:#171d26; --surface-2:#202835; --line:#2b3543;
+  --accent:#7fb4e2; --accent-ink:#9cc7ee; --accent-soft:#16283a;
+  --alert:#e2907a; --alert-ink:#eda58f; --alert-soft:#3a1f19;
+  --good:#7ec5a4; --good-soft:#15302a;
+  --gold:#d3ae5e;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -16px rgba(0,0,0,.8);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--ground); color:var(--ink);
+  font-family:var(--sans); font-size:16px; line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:900px; margin:0 auto; padding-inline:16px}
+
+/* ---------- masthead ---------- */
+header.mast{
+  position:sticky; top:env(safe-area-inset-top, 0px); z-index:40;
+  background:color-mix(in srgb, var(--ground) 92%, transparent);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.mast-inner{
+  max-width:900px; margin:0 auto; padding:12px 16px 10px;
+  display:flex; align-items:center; gap:16px; flex-wrap:wrap;
+}
+.mark{display:flex; flex-direction:column; gap:1px; min-width:0}
+.mark b{
+  font-family:var(--serif); font-weight:700; font-size:20px; letter-spacing:-.01em;
+  line-height:1.15;
+}
+.mark span{
+  font-family:var(--mono); font-size:11px; letter-spacing:.08em;
+  text-transform:uppercase; color:var(--ink-3);
+}
+.countdown{
+  margin-left:auto; display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+  padding:8px 13px; border-radius:2px;
+  background:var(--alert-soft); border:1px solid color-mix(in srgb, var(--alert) 35%, transparent);
+}
+.clock{display:flex; gap:9px}
+.clock div{display:flex; flex-direction:column; align-items:center; min-width:30px}
+.clock b{
+  font-family:var(--mono); font-weight:500; font-size:19px; line-height:1.05;
+  color:var(--alert-ink); font-variant-numeric:tabular-nums;
+}
+.clock i{
+  font-style:normal; font-family:var(--mono); font-size:8.5px; letter-spacing:.09em;
+  text-transform:uppercase; color:var(--ink-3); margin-top:3px;
+}
+.countdown .n{font-family:var(--mono); font-weight:500; font-size:19px; color:var(--alert-ink); font-variant-numeric:tabular-nums}
+.countdown .l{font-size:12px; color:var(--ink-2); line-height:1.35}
+@media(max-width:620px){
+  .countdown{margin-left:0; width:100%; justify-content:space-between}
+}
+
+/* ---------- tabs ---------- */
+.tabstrip{
+  background:transparent; border-top:1px solid var(--line);
+}
+.tabscroll{
+  max-width:900px; margin:0 auto; padding-inline:16px;
+  display:flex; gap:2px; overflow-x:auto; scrollbar-width:thin;
+}
+.tabscroll::-webkit-scrollbar{height:0}
+.tab{
+  flex:0 0 auto; appearance:none; border:0; background:none; cursor:pointer;
+  font-family:var(--sans); font-size:13.5px; font-weight:500; color:var(--ink-3);
+  padding:11px 12px 9px; border-bottom:2px solid transparent; white-space:nowrap;
+}
+.tab:hover{color:var(--ink)}
+.tab[aria-selected="true"]{color:var(--accent-ink); border-bottom-color:var(--accent); font-weight:600}
+.tab:focus-visible{outline:2px solid var(--accent); outline-offset:-3px; border-radius:2px}
+.tab .badge{
+  font-family:var(--mono); font-size:10px; margin-left:5px; padding:1px 4px;
+  border-radius:2px; background:var(--surface-2); color:var(--ink-3);
+}
+
+/* ---------- panels ---------- */
+main{padding-block:28px 64px}
+.panel{display:grid; gap:22px}
+h2.sec{
+  font-family:var(--serif); font-weight:600; font-size:27px; line-height:1.2;
+  margin:0; letter-spacing:-.015em; text-wrap:balance;
+}
+h3{
+  font-family:var(--sans); font-size:12px; font-weight:600; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--ink-3); margin:0 0 10px;
+}
+h4{font-family:var(--serif); font-weight:600; font-size:19px; margin:0 0 6px; letter-spacing:-.01em}
+p{margin:0 0 12px; max-width:68ch}
+p:last-child{margin-bottom:0}
+a{color:var(--accent-ink); text-decoration-thickness:1px; text-underline-offset:2px}
+.lede{font-family:var(--serif); font-size:19px; line-height:1.55; color:var(--ink-2); max-width:62ch}
+.card{
+  background:var(--surface); border:1px solid var(--line); border-radius:3px;
+  padding:20px; box-shadow:var(--shadow);
+}
+.card.flat{box-shadow:none; background:transparent; border-style:dashed}
+.rule{border:0; border-top:1px solid var(--line); margin:4px 0}
+.small{font-size:13.5px; color:var(--ink-2)}
+.mono{font-family:var(--mono); font-variant-numeric:tabular-nums}
+strong{font-weight:600}
+ul.tight{margin:0 0 12px; padding-left:20px; display:grid; gap:6px; max-width:68ch}
+ul.tight:last-child{margin-bottom:0}
+ul.tight li::marker{color:var(--ink-3)}
+
+/* alert block */
+.klaxon{
+  border-left:3px solid var(--alert); background:var(--alert-soft);
+  padding:16px 18px; border-radius:0 3px 3px 0;
+}
+.klaxon h4{color:var(--alert-ink)}
+.note{
+  border-left:3px solid var(--accent); background:var(--accent-soft);
+  padding:14px 16px; border-radius:0 3px 3px 0; font-size:14.5px;
+}
+.note b{color:var(--accent-ink)}
+
+/* two-col */
+.grid2{display:grid; gap:14px; grid-template-columns:repeat(auto-fit, minmax(240px,1fr))}
+
+/* stat row */
+.facts{display:grid; gap:12px; grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.fact{background:var(--surface); border:1px solid var(--line); border-radius:3px; padding:14px 16px}
+.fact .v{font-family:var(--mono); font-size:22px; font-weight:500; color:var(--accent-ink); font-variant-numeric:tabular-nums; line-height:1.2}
+.fact .k{font-size:12.5px; color:var(--ink-3); margin-top:4px}
+
+/* tables */
+.scroller{overflow-x:auto; border:1px solid var(--line); border-radius:3px; background:var(--surface)}
+table{border-collapse:collapse; width:100%; font-size:14px; min-width:460px}
+th,td{padding:10px 14px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top}
+th{
+  font-size:11px; text-transform:uppercase; letter-spacing:.07em; color:var(--ink-3);
+  font-weight:600; background:var(--surface-2); white-space:nowrap;
+}
+tbody tr:last-child td{border-bottom:0}
+td.mono{white-space:nowrap}
+
+/* timeline */
+.tl{display:grid; gap:0; position:relative}
+.tl-row{
+  display:grid; grid-template-columns:minmax(120px,168px) 1fr; gap:18px;
+  padding:16px 0; border-top:1px solid var(--line); position:relative;
+}
+.tl-row:first-child{border-top:0}
+.tl-when{font-family:var(--mono); font-size:13px; color:var(--accent-ink); font-variant-numeric:tabular-nums; line-height:1.45}
+.tl-what b{display:block; font-size:15.5px; font-weight:600; margin-bottom:3px}
+.tl-row.now{background:var(--alert-soft); margin-inline:-14px; padding-inline:14px; border-radius:3px}
+.tl-row.now .tl-when{color:var(--alert-ink)}
+.tl-row.done .tl-when, .tl-row.done .tl-what{opacity:.55}
+@media(max-width:560px){ .tl-row{grid-template-columns:1fr; gap:4px} }
+
+/* checklist */
+.progress-head{
+  display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;
+}
+.meter{height:6px; background:var(--surface-2); border-radius:3px; overflow:hidden; margin-top:12px}
+.meter i{display:block; height:100%; background:var(--good); width:0%; transition:width .3s ease}
+.cl-group{margin-top:20px}
+.cl-group > h3{display:flex; align-items:baseline; gap:8px}
+.cl-group > h3 em{font-style:normal; font-family:var(--mono); color:var(--ink-3); font-size:11px}
+.cl-item{
+  display:grid; grid-template-columns:24px 1fr; gap:12px; align-items:start;
+  padding:11px 12px; border:1px solid var(--line); border-radius:3px;
+  background:var(--surface); margin-bottom:6px;
+}
+.cl-item.on{background:var(--good-soft); border-color:color-mix(in srgb, var(--good) 35%, transparent)}
+.cl-item input{
+  width:18px; height:18px; margin:3px 0 0; accent-color:var(--good); cursor:pointer;
+}
+.cl-item label{cursor:pointer; font-size:15px; font-weight:500; display:block}
+.cl-item.on label{text-decoration:line-through; text-decoration-color:color-mix(in srgb, var(--good) 60%, transparent)}
+.cl-item .why{font-size:13px; color:var(--ink-2); margin-top:3px; font-weight:400}
+.cl-item .why .mono{color:var(--ink-3)}
+.btn{
+  appearance:none; font-family:var(--sans); font-size:13px; font-weight:500;
+  padding:7px 13px; border-radius:3px; border:1px solid var(--line);
+  background:var(--surface); color:var(--ink-2); cursor:pointer;
+}
+.btn:hover{border-color:var(--ink-3); color:var(--ink)}
+.btn:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+.sync{font-size:12px; color:var(--ink-3); font-family:var(--mono)}
+
+/* verdict rows */
+.judge{display:grid; gap:9px}
+.j{
+  display:grid; grid-template-columns:22px 1fr; gap:12px; align-items:start;
+  padding:13px 15px; border:1px solid var(--line); border-radius:3px; background:var(--surface);
+}
+.j .m{font-family:var(--mono); font-weight:500; font-size:15px; line-height:1.4}
+.j.ok{border-left:3px solid var(--good)}
+.j.ok .m{color:var(--good)}
+.j.warn{border-left:3px solid var(--alert)}
+.j.warn .m{color:var(--alert-ink)}
+.j.info{border-left:3px solid var(--accent)}
+.j.info .m{color:var(--accent-ink)}
+.j b{display:block; font-size:15.5px; margin-bottom:3px; font-weight:600}
+.j span{font-size:14px; color:var(--ink-2); display:block}
+.j span + span{margin-top:6px}
+
+/* source list */
+.sources{font-size:13px; color:var(--ink-3)}
+.sources a{color:var(--ink-2)}
+footer{border-top:1px solid var(--line); margin-top:40px; padding-top:20px}
+
+@media (prefers-reduced-motion: reduce){ *{transition:none !important; animation:none !important} }
+</style>
+</head>
+<body>
+<header class="mast">
+  <div class="mast-inner">
+    <div class="mark">
+      <b>Chevening 2027/28</b>
+      <span>Ibrahim Elsharkawy · Egypt award</span>
+    </div>
+    <div class="countdown" id="cd">
+      <div class="clock" id="clock" role="timer" aria-live="off">
+        <div><b id="u-d">—</b><i>days</i></div>
+        <div><b id="u-h">—</b><i>hrs</i></div>
+        <div><b id="u-m">—</b><i>min</i></div>
+        <div><b id="u-s">—</b><i>sec</i></div>
+      </div>
+      <span class="l" id="cd-l">until the deadline<br>Tue 6 Oct 2026, 14:00 Riyadh</span>
+    </div>
+  </div>
+<nav class="tabstrip">
+  <div class="tabscroll" role="tablist" aria-label="Sections" id="tablist">
+    <button class="tab" role="tab" id="t-start" aria-controls="p-start" aria-selected="true">Start here</button>
+    <button class="tab" role="tab" id="t-you" aria-controls="p-you" aria-selected="false">Your candidacy</button>
+    <button class="tab" role="tab" id="t-elig" aria-controls="p-elig" aria-selected="false">Eligibility</button>
+    <button class="tab" role="tab" id="t-oda" aria-controls="p-oda" aria-selected="false">ODA &amp; Egypt</button>
+    <button class="tab" role="tab" id="t-degree" aria-controls="p-degree" aria-selected="false">Your degree</button>
+    <button class="tab" role="tab" id="t-time" aria-controls="p-time" aria-selected="false">Timeline</button>
+    <button class="tab" role="tab" id="t-course" aria-controls="p-course" aria-selected="false">Courses</button>
+    <button class="tab" role="tab" id="t-essay" aria-controls="p-essay" aria-selected="false">Essays &amp; referees</button>
+    <button class="tab" role="tab" id="t-impact" aria-controls="p-impact" aria-selected="false">Impact areas</button>
+    <button class="tab" role="tab" id="t-check" aria-controls="p-check" aria-selected="false">Checklist <span class="badge" id="tabcount">0/28</span></button>
+  </div>
+</nav>
+</header>
+
+<main class="wrap">
+
+<!-- ============ START HERE ============ -->
+<section class="panel" role="tabpanel" id="p-start" aria-labelledby="t-start">
+  <div>
+    <h2 class="sec">The UK government's scholarship, and where you stand today</h2>
+    <p class="lede">Chevening is the UK Foreign, Commonwealth &amp; Development Office's global scholarship programme: one year, one taught master's, fully funded, for people it expects to go home and lead. Around 60,000 alumni across more than 140 countries.</p>
+  </div>
+
+  <div class="klaxon">
+    <h4>Applications for 2027/28 close on 6 October 2026 at 14:00 Riyadh time</h4>
+    <p class="small" style="margin-bottom:8px">Chevening publishes the deadline as <span class="mono">11:00 UTC</span>. Saudi Arabia is UTC+3 year round, so that is <strong>14:00 in Riyadh</strong> — and the same clock time in Cairo, since Egypt is also on UTC+3 in early October. The system does not extend, and you cannot edit an application after you submit it.</p>
+    <p class="small" id="urgency" style="margin:0 0 8px"></p>
+    <p class="small" style="margin:0">Before any of that: <strong>your residency needs resolving first.</strong> You are an Egyptian citizen resident in Saudi Arabia, and Saudi Arabia is not on the OECD's list of aid recipients — which is what Chevening's ODA clause turns on. Read the <em>ODA &amp; Egypt</em> tab, then write to Chevening today. Everything else on this page waits on their answer.</p>
+  </div>
+
+  <div>
+    <h3>The three hard gates, before anything else</h3>
+    <div class="facts">
+      <div class="fact"><div class="v">2,800</div><div class="k">hours of work experience after your bachelor's — roughly two years full-time</div></div>
+      <div class="fact"><div class="v">6 Oct 2024</div><div class="k">the latest date you can have finished your undergraduate studies</div></div>
+      <div class="fact"><div class="v">3</div><div class="k">different eligible UK master's courses on your application</div></div>
+    </div>
+    <p class="small" style="margin-top:12px">You do <strong>not</strong> need a university offer to apply. The unconditional offer is only needed by <span class="mono">8 July 2027</span>, after interviews.</p>
+  </div>
+
+  <div class="card">
+    <h4>What the award pays for</h4>
+    <ul class="tight">
+      <li>Tuition fees in full — except an MBA, which is capped at <span class="mono">£22,000</span>; you pay anything above that</li>
+      <li>A monthly living stipend, set higher for London than for the rest of the UK</li>
+      <li>Economy return flights between Egypt and the UK, for you only, by an approved route</li>
+      <li>An arrival allowance and a homeward departure allowance</li>
+      <li>A travel top-up allowance for Chevening events in the UK</li>
+      <li>Your visa (entry clearance) application fee, for you only, and up to <span class="mono">£75</span> towards a TB test where one is required</li>
+      <li>A year-long engagement programme: networking with scholars, alumni, the FCDO and partner organisations</li>
+    </ul>
+    <hr class="rule" style="margin:14px 0">
+    <p class="small" style="margin:0"><strong>Not covered:</strong> anything for dependants — their visas, flights and living costs are yours — plus tuition above the MBA cap and pre-sessional English courses. Check the current scholarship terms and conditions on chevening.org for the exact stipend rates and the full list before you budget.</p>
+  </div>
+
+  <div>
+    <h3>What the selectors are actually scoring</h3>
+    <div class="grid2">
+      <div class="card">
+        <h4>Leadership &amp; influence</h4>
+        <p class="small" style="margin:0">Times you took the lead and moved other people, with a result you can name. Not your job title.</p>
+      </div>
+      <div class="card">
+        <h4>Networking &amp; relationships</h4>
+        <p class="small" style="margin:0">Relationships you built that produced a measurable outcome, and that you will still use after the UK.</p>
+      </div>
+      <div class="card">
+        <h4>Course &amp; university fit</h4>
+        <p class="small" style="margin:0">Why these three specific courses, at these specific universities, given your background and your plan.</p>
+      </div>
+      <div class="card">
+        <h4>Career plan</h4>
+        <p class="small" style="margin:0">A short-, medium- and long-term plan for Egypt that is concrete, realistic and clearly needs this degree.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="note">
+    <p style="margin:0"><b>Where to apply:</b> the Chevening online application system (ASAMS) at <a href="https://asams.chevening.org/apply" target="_blank" rel="noopener">asams.chevening.org/apply</a>. You register, pass an eligibility checker, and are given a unique access code — save it somewhere safe; you need it with your email address every time you come back to the form. The form logs you out after 15 minutes of inactivity, so draft the essays in a separate document and paste them in.</p>
+  </div>
+</section>
+
+<!-- ============ YOUR CANDIDACY ============ -->
+<section class="panel" role="tabpanel" id="p-you" aria-labelledby="t-you" hidden>
+  <div>
+    <h2 class="sec">Your CV, read the way a reading committee will read it</h2>
+    <p class="lede">On the four things Chevening actually scores, this is an unusually strong application. One structural problem stands between it and the form — and one question you will be asked in every room you enter.</p>
+  </div>
+
+  <div>
+    <h3>The hard criteria</h3>
+    <div class="judge">
+      <div class="j ok"><span class="m">✓</span><div>
+        <b>Work experience — 2,800 hours required, you have roughly 13 years</b>
+        <span>Vodafone Egypt from April 2013, then Raya, Landmark Group, Zohoor Alreef, Arabian Oud and Arabian Academy. You clear the threshold by a factor of six. Enter it accurately anyway — miscounted weeks are one of Chevening's listed common errors.</span>
+      </div></div>
+      <div class="j ok"><span class="m">✓</span><div>
+        <b>Undergraduate degree finished at least two years before the deadline</b>
+        <span>HTI, 2013. Clear by twelve years.</span>
+      </div></div>
+      <div class="j ok"><span class="m">✓</span><div>
+        <b>Citizenship of a Chevening-eligible country</b>
+        <span>Egyptian. The Egypt programme runs through the British Embassy in Cairo.</span>
+      </div></div>
+      <div class="j ok"><span class="m">✓</span><div>
+        <b>English</b>
+        <span>Fluent, and a CIPD Level 5 Diploma completed with a London provider — a UK-regulated qualification at RQF Level 5. Chevening sets no English test itself; your universities will, and you have strong grounds either way.</span>
+      </div></div>
+      <div class="j ok"><span class="m">✓</span><div>
+        <b>Age</b>
+        <span>No limit exists. You would be in your mid-thirties at course start — well within the range Chevening admits every year.</span>
+      </div></div>
+      <div class="j warn"><span class="m">!</span><div>
+        <b>Residence in an ODA-eligible country — this is the blocker</b>
+        <span>You hold <strong>Saudi Premium Residency (permanent)</strong> and live in Riyadh. Saudi Arabia is not on the DAC List of ODA Recipients, and permanent residency is harder to argue around than a temporary posting: it reads as settled residence outside the eligible world. See the <em>ODA &amp; Egypt</em> tab. Nothing else on this page matters until Chevening answers this.</span>
+      </div></div>
+      <div class="j warn"><span class="m">!</span><div>
+        <b>The two-year return commitment</b>
+        <span>Separate from the residency rule, and it will be probed hard. A panel sees eleven years of career built in the Gulf, permanent residency, a family, and standing as a Top 50 HR leader in KSA. "Clear intention to support your country of award" has to be answered directly and with specifics, not implied.</span>
+      </div></div>
+    </div>
+  </div>
+
+  <div>
+    <h3>The four scored criteria</h3>
+    <div class="judge">
+      <div class="j ok"><span class="m">✓</span><div>
+        <b>Leadership &amp; influence — exceptional</b>
+        <span>Reading committees complain that applicants define leadership instead of demonstrating it. You founded an institution from nothing: physical infrastructure, chemical and computer labs, a live operating retail store, a custom SCORM-compliant LMS, dual TVTC and NELC accreditation inside the first year, and <strong>34M SAR of revenue in year one</strong>.</span>
+        <span><strong>Use:</strong> Arabian Academy as the spine of the essay, in STAR form, in the first person singular. The numbers do the persuading — 1,100 trained, 800 placed, 73%.</span>
+      </div></div>
+      <div class="j ok"><span class="m">✓</span><div>
+        <b>Networking &amp; relationships — strong, and easy to evidence</b>
+        <span>HRDF Train to Hire partner status, TVTC and NELC accreditation, public and private sector agreements to fund vocational pipelines, partnerships with global fragrance houses, and representation at HRSE KSA and Talent World ME.</span>
+        <span><strong>Use:</strong> pick one relationship built across a boundary — the HRDF partnership is the obvious candidate — and show what it produced (free enrolment for B2B and B2C learners) and how you would use the same method in Egypt.</span>
+      </div></div>
+      <div class="j ok"><span class="m">✓</span><div>
+        <b>Career plan — the story writes itself</b>
+        <span>You have spent a decade solving, at national scale in Saudi Arabia, the exact problem Egypt has: getting young people qualified and into jobs. Youth unemployment and a weak TVET-to-employment pipeline are among Egypt's most-cited development challenges, and you have a verified 73% placement rate against that problem.</span>
+        <span><strong>Impact area:</strong> <em>Promoting growth and prosperity</em>, with a legitimate second foot in <em>developing inclusive, effective societies</em>. Name one, not both.</span>
+      </div></div>
+      <div class="j warn"><span class="m">!</span><div>
+        <b>Studying in the UK — your weakest essay, and the one to work hardest on</b>
+        <span>The honest question a panel will ask is: <em>why does a General Manager who founded an accredited training institution need a master's at all?</em> If the answer is credentialism, the essay fails. It has to name a specific gap — skills-policy design at national level, labour-market economics, evaluation methodology, education policy — that you cannot get from practice and that the named course closes.</span>
+        <span>Your CIPD Level 5 also makes the progression legible: Level 5 to a master's is a recognised UK route.</span>
+      </div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h4>The Presidential Labor Medal is your single strongest asset — use it correctly</h4>
+    <p class="small" style="margin-bottom:8px">A First Grade Presidential Labor Medal awarded in May 2025, as the first Egyptian national honoured for professional achievement outside Egypt, does three things at once that nothing else in the application can:</p>
+    <ul class="tight" style="margin:0">
+      <li>It is <strong>third-party verification</strong> of impact, from a head of state, on precisely the theme Chevening funds — upskilling and employability.</li>
+      <li>It is <strong>evidence of the Egypt tie</strong> that the residency and return questions attack. The Egyptian state has formally recognised you; that is the factual counterweight to "he has built his life in Riyadh".</li>
+      <li>It makes you <strong>memorable</strong> across a field of thousands of applications.</li>
+    </ul>
+    <hr class="rule" style="margin:14px 0">
+    <p class="small" style="margin:0">Put it in the leadership essay as a result, not a boast — one clause, attached to the work that earned it. And have one referee mention it, so it is not only you saying so.</p>
+  </div>
+
+  <div class="card" style="border-left:3px solid var(--alert)">
+    <h4>Three things to handle honestly</h4>
+    <ul class="tight" style="margin:0">
+      <li><strong>Seniority.</strong> Chevening funds "emerging leaders". You are a founder and General Manager at 35, which can read as already arrived. There is no age limit and senior applicants are selected every year — but your career-plan essay must show the next mountain, not the last one. Frame the master's as the pivot from running one institution to shaping national skills policy.</li>
+      <li><strong>The Gulf career.</strong> Do not hide it or apologise for it. Reframe it: eleven years learning how Saudi Arabia built a national workforce-development system, which is exactly the transferable expertise Egypt needs. The medal proves Egypt already sees it that way.</li>
+      <li><strong>AI tools.</strong> Your CV lists Claude and ChatGPT among your tools — entirely normal for an L&amp;D professional. But Chevening explicitly prohibits AI-generated essay answers and treats them alongside plagiarism. Use AI to plan, structure and pressure-test; write the 500 words yourself.</li>
+    </ul>
+  </div>
+
+  <div class="card flat">
+    <h4>Course directions that fit this profile</h4>
+    <p class="small">Aim at skills policy, workforce development and education systems rather than another HR qualification — the pivot you need for the career-plan essay is from practitioner to policy:</p>
+    <ul class="tight" style="margin:0 0 12px">
+      <li><strong>Education and International Development</strong>, or <strong>Education, Policy and Society</strong> — UCL Institute of Education is the strongest name in this space globally</li>
+      <li><strong>Human Resource Management &amp; Industrial Relations</strong>, or <strong>Organisational Psychology</strong> — Manchester, Warwick, Leeds, Birkbeck</li>
+      <li><strong>Public Policy</strong> or <strong>Development Studies</strong> with a labour-market or skills specialism — Sheffield, Nottingham, SOAS, Sussex (IDS)</li>
+      <li><strong>Digital Education / Learning and Technology</strong> — Edinburgh, Oxford — if the LMS and AI-augmented design work is the thread you want to pull</li>
+    </ul>
+    <p class="small" style="margin:0"><strong>Avoid the MBA route</strong> unless you can fund the gap: Chevening caps MBA tuition at <span class="mono">£22,000</span> and UK MBAs routinely cost two to three times that. It is also the weakest fit for a policy-pivot narrative.</p>
+  </div>
+</section>
+
+<!-- ============ ELIGIBILITY ============ -->
+<section class="panel" role="tabpanel" id="p-elig" aria-labelledby="t-elig" hidden>
+  <div>
+    <h2 class="sec">Eligibility, line by line</h2>
+    <p class="lede">Every criterion below is a pass/fail gate. The eligibility checker at the front of the application screens most of them before you are allowed to write a word.</p>
+  </div>
+
+  <div class="scroller">
+    <table>
+      <thead><tr><th style="width:38%">Requirement</th><th>What it means for you in Egypt</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Citizenship</strong></td>
+          <td>You must be a citizen of a Chevening-eligible country or territory. Egypt is eligible and runs its own programme through the British Embassy in Cairo.</td>
+        </tr>
+        <tr>
+          <td><strong>Residence in an ODA-eligible country</strong></td>
+          <td style="background:var(--alert-soft)">You must be resident in a country on the OECD's list of aid recipients — not necessarily the country of your citizenship. Egypt qualifies; <strong>Saudi Arabia does not.</strong> This is the one criterion you need to resolve with Chevening before doing anything else — see the <em>ODA &amp; Egypt</em> tab.</td>
+        </tr>
+        <tr>
+          <td><strong>Not British</strong></td>
+          <td>You cannot hold British or dual British citizenship. Exceptions: British Overseas Territory citizens, and BN(O) holders from Hong Kong.</td>
+        </tr>
+        <tr>
+          <td><strong>Not UK-resident at application</strong></td>
+          <td>You cannot be living in the UK when you apply.</td>
+        </tr>
+        <tr>
+          <td><strong>Undergraduate degree</strong></td>
+          <td>A bachelor's degree that qualifies you for entry to a UK master's programme — normally the equivalent of a UK 2:1. See the <em>Your degree</em> tab.</td>
+        </tr>
+        <tr>
+          <td><strong>Finished two years ago</strong></td>
+          <td>You must have finished your undergraduate studies at least two years before the deadline — so on or before <span class="mono">6 October 2024</span>. You do not need the certificate yet, but you must have it by your interview (March–April 2027).</td>
+        </tr>
+        <tr>
+          <td><strong>2,800 hours of work experience</strong></td>
+          <td>At least two years' worth, all of it earned <em>after</em> your undergraduate degree. Full-time, part-time, remote work, paid or unpaid internships and voluntary work all count. The form calculates the total from the weeks and hours you enter — enter them honestly and precisely.</td>
+        </tr>
+        <tr>
+          <td><strong>Three course choices</strong></td>
+          <td>Three different, eligible UK master's courses, in order of preference. You must hold an unconditional offer from at least one of them by <span class="mono">17:00 BST, 8 July 2027</span>.</td>
+        </tr>
+        <tr>
+          <td><strong>Return to Egypt</strong></td>
+          <td>You commit to returning to your country of award for at least two years after the scholarship ends. This is a visa and contractual condition, not a suggestion.</td>
+        </tr>
+        <tr>
+          <td><strong>English language</strong></td>
+          <td>Chevening removed its own English requirement in 2020. You must meet whatever your chosen university requires — for Egyptian applicants that is typically IELTS Academic 6.5 overall with no component below 5.5, but each university and course sets its own bar.</td>
+        </tr>
+        <tr>
+          <td><strong>Age</strong></td>
+          <td>No upper or lower age limit.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h4>Who cannot apply</h4>
+    <ul class="tight">
+      <li>Employees, former employees or relatives of employees of the UK government (including the British Embassy), the British Council, or a Chevening partner organisation — the readiness questions look back to <span class="mono">August 2024</span></li>
+      <li>Staff and relatives of staff of Chevening-funding partner universities</li>
+      <li>Anyone who has previously studied in the UK on a UK government-funded scholarship</li>
+      <li>Former Chevening Fellows, for five years after the fellowship</li>
+      <li>Anyone holding refugee status in a country that is not Chevening-eligible (refugee status in an eligible country does not disqualify you)</li>
+    </ul>
+  </div>
+
+  <div class="note">
+    <p style="margin:0"><b>The eligibility checker gives you four attempts.</b> If you fail it, the answers you gave are what failed — go back and check how you calculated your work hours and how you described your degree completion date before you burn another try.</p>
+  </div>
+</section>
+
+<!-- ============ ODA ============ -->
+<section class="panel" role="tabpanel" id="p-oda" aria-labelledby="t-oda" hidden>
+  <div>
+    <h2 class="sec">ODA: what the residency clause actually means</h2>
+    <p class="lede">Chevening is paid for largely out of the UK's aid budget. That is the whole reason this clause exists — and it is why the rule is about where you live and where you will go back to, not only about your passport.</p>
+  </div>
+
+  <div class="card">
+    <h4>ODA = Official Development Assistance</h4>
+    <p>It is the OECD's technical term for government aid, defined by its Development Assistance Committee (the <strong>DAC</strong>) in 1969 and still the international standard for what counts as aid. A flow of money is ODA only if it meets three conditions:</p>
+    <ul class="tight">
+      <li>it comes from the <strong>official sector</strong> — a government, a local authority, or their executive agencies;</li>
+      <li>its <strong>main objective</strong> is the economic development and welfare of developing countries;</li>
+      <li>it is <strong>concessional</strong> — a grant, or a loan with a grant element of at least 25%.</li>
+    </ul>
+    <p style="margin-bottom:0">A UK government scholarship that trains someone who then returns home to work on their country's development fits that definition. A scholarship for someone who will settle abroad does not — hence the two-year return commitment.</p>
+  </div>
+
+  <div class="card">
+    <h4>An "ODA-eligible country" is one on the DAC List of ODA Recipients</h4>
+    <p>The OECD publishes a list of every country and territory that may receive ODA. Membership is not political: it is set by <strong>World Bank gross national income per capita</strong>, reviewed <strong>every three years</strong>. A country leaves the list once it has been above the World Bank's high-income threshold for three consecutive years. The list sorts countries into four groups:</p>
+    <div class="scroller" style="margin-bottom:12px">
+      <table>
+        <thead><tr><th>Group</th><th>Category</th><th>Where Egypt sits</th></tr></thead>
+        <tbody>
+          <tr><td class="mono">A</td><td>Least Developed Countries</td><td></td></tr>
+          <tr><td class="mono">—</td><td>Other Low Income Countries</td><td></td></tr>
+          <tr style="background:var(--good-soft)"><td class="mono">B</td><td><strong>Lower Middle Income Countries</strong></td><td><strong>Egypt</strong> — on the list, eligible</td></tr>
+          <tr><td class="mono">C</td><td>Upper Middle Income Countries</td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-bottom:0"><strong>Egypt is on the list, in the Lower Middle Income group.</strong> Your citizenship therefore clears this criterion. The question in your case is the second half of the clause — where you are <em>resident</em>.</p>
+  </div>
+
+  <div class="klaxon">
+    <h4>Your situation: Egyptian citizen, Saudi Premium Residency, living in Riyadh</h4>
+    <p class="small"><strong>Saudi Arabia is not on the DAC List of ODA Recipients.</strong> Nor are the UAE, Qatar, Kuwait, Bahrain or Oman — the Gulf states are high-income and long since graduated off the list. The Middle Eastern countries that <em>are</em> on it are Egypt, Jordan, Lebanon, Iran, Syria, Iraq, Yemen and the West Bank and Gaza Strip.</p>
+    <p class="small">Chevening's clause reads: <em>"If applying for an award from an ODA-eligible country, be resident in an ODA-eligible country."</em> Egypt is an ODA-eligible country, so you would be applying for the Egypt award — and the rule then requires your country of residence to be on the list too. Saudi Arabia is not. On the criterion as written, <strong>residence in Saudi Arabia does not satisfy it</strong>, and the FAQ's own worked example is exactly this shape: an Egyptian citizen living in the USA is not permitted, because the USA is not ODA-eligible.</p>
+    <p class="small">Your <strong>Premium Residency</strong> makes this harder rather than easier to argue. A two-year expatriate posting can be presented as temporary; permanent residency reads as settled residence outside the ODA-eligible world, and it is a document you would have to declare.</p>
+    <p class="small" style="margin:0"><strong>Before you accept that as final, do two things.</strong> Residence is assessed at the time of application, so the answer can turn on where you are on 6 October 2026 and on how your situation is documented. First, write to the Chevening team in Cairo through <a href="https://www.chevening.org/about/contact-us/" target="_blank" rel="noopener">chevening.org/about/contact-us</a> and describe your circumstances plainly — Egyptian citizenship, Saudi Premium Residency, and the Presidential Labor Medal awarded by Egypt in May 2025 for work that served Egyptian as well as Saudi interests. That last fact is worth stating: it is the strongest available evidence that your orientation is toward Egypt. A binding answer comes only from them. Second, do not spend your eligibility-checker attempts guessing: you get four, and the checker asks for your country of residence.</p>
+  </div>
+
+  <div>
+    <h3>The general rule: residence ≠ citizenship</h3>
+    <div class="grid2">
+      <div class="card" style="border-left:3px solid var(--good)">
+        <h4 style="color:var(--good)">Allowed</h4>
+        <p class="small" style="margin:0">An Egyptian citizen living and working in <strong>Jordan</strong>, <strong>Algeria</strong>, <strong>Morocco</strong> or another country on the DAC list. Citizenship country and country of residence are both ODA-eligible, so you can apply; you explain the circumstances in the application, and your country of award stays Egypt.</p>
+      </div>
+      <div class="card" style="border-left:3px solid var(--alert)">
+        <h4 style="color:var(--alert-ink)">Not allowed</h4>
+        <p class="small" style="margin:0">An Egyptian citizen living in <strong>Saudi Arabia</strong>, the <strong>UAE</strong>, <strong>Qatar</strong>, <strong>Kuwait</strong>, the <strong>USA</strong> or the <strong>UK</strong>. All are high-income and off the DAC list, so residence there does not meet the criterion — and UK residence is separately disqualifying in its own right.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h4>Is there a workaround, or is it strict?</h4>
+    <p><strong>The criterion is strict.</strong> It is a hard eligibility gate, not a scored judgement: the online eligibility checker screens it before any human reads a word of your essays, there is no discretionary appeal, and Chevening's own FAQ publishes the negative case in your exact shape. Nobody at the Embassy has the power to waive it for a strong candidate.</p>
+    <p style="margin-bottom:0"><strong>But "resident" is a fact about you on one date — not a permanent label.</strong> That is where the legitimate room sits, and there is real room. Three routes, in order of how quickly they could work:</p>
+  </div>
+
+  <div class="judge">
+    <div class="j ok"><span class="m">1</span><div>
+      <b>Genuinely re-establish residence in Egypt before 6 October 2026</b>
+      <span>If you actually move — the Riyadh role ends, you are living in Egypt on the deadline date — the criterion is met and everything else about your application is exceptional. In fourteen days that is only realistic if a move is already under way. If it is, say so to Chevening with dates and documents.</span>
+    </div></div>
+    <div class="j ok"><span class="m">2</span><div>
+      <b>Apply in a later cycle, from Egypt</b>
+      <span>The 2028/29 round opens around August 2027. Nothing you have built expires: the work experience keeps accruing, the medal does not fade, and a year of deliberate preparation on the course choices and the career-plan essay would make an already strong application stronger. This is the realistic route, not a consolation prize.</span>
+    </div></div>
+    <div class="j info"><span class="m">3</span><div>
+      <b>Ask Chevening — your case has a feature theirs does not anticipate</b>
+      <span>The published examples are ordinary expatriates. You hold a First Grade Presidential Labor Medal awarded by the President of Egypt in May 2025, explicitly for work serving Egyptian interests abroad — an unusually strong, state-verified demonstration of the "clear intention to support your country of award" that the clause exists to test. The odds are against a different answer, but it costs one email and ten minutes, and only they can give it.</span>
+    </div></div>
+  </div>
+
+  <div class="klaxon">
+    <h4>What is not a workaround</h4>
+    <p class="small" style="margin-bottom:8px">Each of these ends the application, and some would end future ones:</p>
+    <ul class="tight" style="margin:0">
+      <li>Entering Egypt as your country of residence while living in Riyadh. Chevening treats misrepresentation alongside plagiarism and fraud — <strong>automatic disqualification</strong>.</li>
+      <li>Using a family address in Cairo or Alexandria as your own. Interviews are held at the British Embassy in the country of award and documents are checked there.</li>
+      <li>Omitting the Premium Residency. It is a declarable fact, and being found to have concealed it is worse than the thing concealed.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h4>Routes that carry no ODA residency rule at all</h4>
+    <ul class="tight">
+      <li><strong>GREAT Scholarships</strong> (British Council). Egyptian <em>citizenship</em> is the requirement — the published criteria set no residency condition. Worth <span class="mono">£10,000</span> toward tuition on one-year taught master's courses at participating UK universities. You apply to the university, not to a central body, and deadlines vary by institution. <a href="https://www.britishcouncil.org.eg/en/study-uk/scholarships/great" target="_blank" rel="noopener">British Council Egypt</a>.</li>
+      <li><strong>University postgraduate scholarships.</strong> No residency rules, and this is where your profile is strongest: a founder with a Presidential medal and quantified national-scale impact is exactly who departmental and dean's awards are written for. Ask each of your three universities what they offer for Egyptian or MENA applicants.</li>
+      <li><strong>Chevening Fellowships</strong> — a separate, shorter programme. The published eligibility is framed on citizenship of a fellowship-eligible country and a one-year return commitment, without the ODA residency clause that governs the scholarships. Each fellowship has its own programme-specific requirements, so check whether Egypt is listed for the ones running that year.</li>
+      <li><strong>Employer or self-funding</strong>, with a part-time or online UK master's. Chevening would not fund it, but nor would anyone dictate where you live.</li>
+    </ul>
+    <hr class="rule" style="margin:14px 0">
+    <p class="small" style="margin:0"><strong>Not an option:</strong> Commonwealth Scholarships. Egypt is not a Commonwealth member, so Egyptian citizens are not eligible regardless of where they live. And a Saudi Chevening award is closed to you too — every award requires citizenship of the country you apply through.</p>
+  </div>
+
+  <div class="klaxon">
+    <h4>"A clear intention to support your country of award"</h4>
+    <p class="small" style="margin:0">This is the sentence that quietly runs through the whole application. Your country of award is Egypt. Every essay — especially the career plan — has to show a plan that happens <em>in Egypt</em>, addressing a problem you can name, with a role you can realistically hold. Vague ambitions to "work internationally" or an unexplained plan to go on to a PhD abroad read, to a reading committee, as an intention not to return.</p>
+  </div>
+</section>
+
+<!-- ============ DEGREE ============ -->
+<section class="panel" role="tabpanel" id="p-degree" aria-labelledby="t-degree" hidden>
+  <div>
+    <h2 class="sec">Is my Egyptian degree equivalent to UK standards?</h2>
+    <p class="lede">Short answer: Chevening never assesses your degree. The universities do. Chevening's requirement is simply "a degree that qualifies you for a UK master's" — and an unconditional offer from a UK university <em>is</em> the proof.</p>
+  </div>
+
+  <div class="card" style="border-left:3px solid var(--accent)">
+    <h4>Your credentials, read against the criteria</h4>
+    <div class="scroller" style="margin:12px 0">
+      <table>
+        <thead><tr><th>Qualification</th><th>How it counts</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>BSc (Hons) Business Administration Technology</strong><br><span class="small">Higher Technological Institute (HTI), Egypt · 2013</span></td>
+            <td>This is your Chevening-qualifying degree, and the <span class="mono">2013</span> completion date clears the two-year rule by a decade. HTI is a licensed Egyptian private institute, founded 1988 and listed in the IAU/UNESCO World Higher Education Database — which is the register UK admissions offices check. The open question is not whether it is recognised but <strong>what UK level and classification it maps to</strong>, because it is an <em>institute</em> rather than a university and its grading may not be read as automatically as a Cairo or Ain Shams degree.</td>
+          </tr>
+          <tr>
+            <td><strong>CIPD Level 5 Diploma in Learning &amp; Development</strong><br><span class="small">Avado Learning, London · 2020</span></td>
+            <td>Genuinely useful here. It is a UK-regulated qualification at RQF Level 5, which tells a UK admissions tutor you have already studied successfully to a British standard and in English. Put it on every university application; it will not replace the bachelor's, but it answers the unspoken question about readiness.</td>
+          </tr>
+          <tr>
+            <td><strong>PHR (HRCI) · Six Sigma Black Belt · Train the Trainer · strategic management</strong></td>
+            <td>Not degree credentials, but strong evidence for the leadership essay and for HR/L&amp;D or organisational-behaviour master's applications. Six Sigma in particular gives you measurable, numerical results to cite — exactly what reading committees say applications lack.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small" style="margin:0"><strong>The practical read:</strong> ask each of your three universities specifically whether an HTI bachelor's meets their postgraduate entry requirement, naming the institute — do not rely on a generic "Egypt" entry-requirements page, which is written with public universities in mind. And lead with the experience: most UK universities will admit a candidate with thirteen years of senior practice and a CIPD Level 5 even where the bachelor's classification sits below their stated bar, under their "relevant professional experience" route. Ask about that route explicitly.</p>
+  </div>
+
+  <div class="card">
+    <h4>1. The authoritative check: your three universities' own country pages</h4>
+    <p>Every UK university publishes entry requirements country by country, and they set their own thresholds — they are not identical. Search <em>"[university name] Egypt entry requirements"</em> and read the postgraduate row. Two real examples:</p>
+    <div class="scroller" style="margin:12px 0">
+      <table>
+        <thead><tr><th>University</th><th>Equivalent to a UK 2:1</th><th>Equivalent to a UK 2:2</th></tr></thead>
+        <tbody>
+          <tr><td>Glasgow</td><td class="mono">75% / GPA 3.0 / Very Good / B</td><td class="mono">65% / GPA 2.7 / Good / C</td></tr>
+          <tr><td>Warwick</td><td class="mono">80–89% / Very Good / B</td><td class="mono">65–79% / Good / C</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-bottom:0" class="small">Note how far apart those two are at the top end. Check the specific requirement for each of your three courses rather than assuming one number holds everywhere — and remember some competitive courses ask for a 2:1 plus relevant work experience, which you will have.</p>
+  </div>
+
+  <div class="card">
+    <h4>2. How Egyptian grades usually map</h4>
+    <p>Egyptian universities grade on the percentage bands below. Most UK admissions offices read them this way, though the cut-off they apply is theirs:</p>
+    <div class="scroller" style="margin:12px 0">
+      <table>
+        <thead><tr><th>Egyptian grade</th><th>Arabic</th><th>Percentage</th><th>Typical UK reading</th></tr></thead>
+        <tbody>
+          <tr><td>Excellent</td><td>ممتاز</td><td class="mono">85–100%</td><td>First class</td></tr>
+          <tr><td>Very Good</td><td>جيد جداً</td><td class="mono">75–84%</td><td>Upper second (2:1)</td></tr>
+          <tr><td>Good</td><td>جيد</td><td class="mono">65–74%</td><td>Lower second (2:2)</td></tr>
+          <tr><td>Pass / Acceptable</td><td>مقبول</td><td class="mono">50–64%</td><td>Third</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small" style="margin-bottom:0">Four- and five-year bachelor's degrees from recognised Egyptian public universities (Cairo, Ain Shams, Alexandria, Helwan, Mansoura and so on) and from accredited private universities are routinely accepted for UK master's entry. If your degree is from a branch campus or a less familiar private institution, ask the admissions office directly before you build an application around it.</p>
+  </div>
+
+  <div class="card">
+    <h4>3. If you want a formal document: UK ENIC</h4>
+    <p>UK ENIC, run by Ecctis, is the UK's national agency for comparing international qualifications. Its <strong>Statement of Comparability</strong> is a certificate stating which UK qualification level yours corresponds to.</p>
+    <ul class="tight">
+      <li>It compares the <strong>level</strong> of the qualification — not your grades, not your subject, and it is <strong>not</strong> proof of English.</li>
+      <li>Chevening does <strong>not</strong> require it, and most UK universities assess Egyptian public-university degrees themselves without one.</li>
+      <li>It is paid and takes time. Apply at <a href="https://www.enic.org.uk/individuals/statement-of-comparability" target="_blank" rel="noopener">enic.org.uk</a>.</li>
+    </ul>
+    <hr class="rule" style="margin:14px 0">
+    <p class="small" style="margin:0"><strong>In your case this is worth the money.</strong> A bachelor's from a private <em>higher technological institute</em> is precisely the situation the Statement of Comparability exists for: it gives every admissions office the same answer, in writing, instead of leaving three of them to reach three different conclusions about HTI. Order it once and reuse it for all three applications. If money or time is tight, email the admissions teams first — if all three say the degree is fine on its own, you have saved the fee.</p>
+  </div>
+
+  <div class="note">
+    <p style="margin:0 0 8px"><b>The paperwork Chevening itself wants:</b></p>
+    <ul class="tight" style="margin:0">
+      <li>Your <strong>degree certificate</strong> — the official university certificate, not a transcript — by the time of your interview.</li>
+      <li>Documents in English. If yours are in Arabic, supply the original <strong>plus a notarised English translation</strong>, combined into a single file.</li>
+      <li>Completion on or before <span class="mono">6 October 2024</span>. Note it is the date you <em>finished studying</em> that counts, not the date the certificate was issued.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ TIMELINE ============ -->
+<section class="panel" role="tabpanel" id="p-time" aria-labelledby="t-time" hidden>
+  <div>
+    <h2 class="sec">The 2027/28 cycle, end to end</h2>
+    <p class="lede">Fourteen months from the form to the first lecture. Only the first two dates are in your hands right now.</p>
+  </div>
+
+  <div class="tl" id="timeline">
+    <div class="tl-row" data-until="2026-08-04T11:00:00Z">
+      <div class="tl-when">4 Aug 2026<br>11:00 UTC</div>
+      <div class="tl-what"><b>Applications open</b><span class="small">The online system (ASAMS) accepts registrations and the eligibility checker goes live.</span></div>
+    </div>
+    <div class="tl-row" data-until="2026-10-06T11:00:00Z">
+      <div class="tl-when">6 Oct 2026<br>14:00 Riyadh · 11:00 UTC</div>
+      <div class="tl-what"><b>Deadline — applications close</b><span class="small">Hard stop. No paper submissions, no edits after you press submit, no extensions. Submit at least a day early; the system is heavily loaded in the final hours.</span></div>
+    </div>
+    <div class="tl-row" data-until="2026-10-31T00:00:00Z">
+      <div class="tl-when">From Oct 2026</div>
+      <div class="tl-what"><b>Eligibility sift</b><span class="small">Chevening screens every application against the hard criteria before anyone reads an essay.</span></div>
+    </div>
+    <div class="tl-row" data-until="2027-01-31T00:00:00Z">
+      <div class="tl-when">Mid-Oct 2026 –<br>Jan 2027</div>
+      <div class="tl-what"><b>Independent reading committees</b><span class="small">Every eligible application is scored on the four criteria. This is where the essays do all the work.</span></div>
+    </div>
+    <div class="tl-row" data-until="2027-02-20T00:00:00Z">
+      <div class="tl-when">Mid-Feb 2027</div>
+      <div class="tl-what"><b>Interview shortlist announced</b><span class="small">The British Embassy in Cairo invites shortlisted candidates. Start lining up your two reference letters and your degree certificate now, not then.</span></div>
+    </div>
+    <div class="tl-row" data-until="2027-04-30T00:00:00Z">
+      <div class="tl-when">Mar – Apr 2027</div>
+      <div class="tl-what"><b>Interviews at the British Embassy, Cairo</b><span class="small">References must reach the Chevening team <strong>no later than seven working days before</strong> your interview, or your application is withdrawn from consideration.</span></div>
+    </div>
+    <div class="tl-row" data-until="2027-06-30T00:00:00Z">
+      <div class="tl-when">Mid-June 2027<br>onwards</div>
+      <div class="tl-what"><b>Results — conditional awards</b><span class="small">Successful candidates are notified. The award is conditional on producing an unconditional university offer.</span></div>
+    </div>
+    <div class="tl-row" data-until="2027-07-08T16:00:00Z">
+      <div class="tl-when">8 Jul 2027<br>17:00 BST</div>
+      <div class="tl-what"><b>Unconditional offer deadline</b><span class="small">You must have an unconditional offer from at least one of your three chosen courses. Miss it and the award lapses — which is why you apply to universities in parallel, from autumn 2026, not after the results.</span></div>
+    </div>
+    <div class="tl-row" data-until="2027-10-01T00:00:00Z">
+      <div class="tl-when">Sep / Oct 2027</div>
+      <div class="tl-what"><b>Course begins in the UK</b><span class="small">Visa, flights and pre-departure briefing at the Embassy precede this.</span></div>
+    </div>
+  </div>
+
+  <div class="note">
+    <p style="margin:0"><b>Read the two deadlines as one plan.</b> Chevening results land in mid-June 2027; UK universities take weeks to issue offers and many close applications for popular courses much earlier. Apply to your universities during the winter of 2026/27, in parallel with the Chevening process — waiting for the Chevening result before applying is the single most common way people lose an award they had already won.</p>
+  </div>
+</section>
+
+<!-- ============ COURSES ============ -->
+<section class="panel" role="tabpanel" id="p-course" aria-labelledby="t-course" hidden>
+  <div>
+    <h2 class="sec">Choosing the three courses</h2>
+    <p class="lede">Three is a rule, not a suggestion, and the choices are themselves scored — assessors read them as evidence of how well you understand your own career.</p>
+  </div>
+
+  <div class="grid2">
+    <div class="card" style="border-left:3px solid var(--good)">
+      <h4 style="color:var(--good)">A course qualifies if it is</h4>
+      <ul class="tight" style="margin:0">
+        <li>Full-time</li>
+        <li>Starting in the autumn term — usually September or October 2027</li>
+        <li>A taught master's leading to a master's qualification</li>
+        <li>Based in the UK</li>
+        <li>Between <span class="mono">9 and 12 months</span> long</li>
+      </ul>
+    </div>
+    <div class="card" style="border-left:3px solid var(--alert)">
+      <h4 style="color:var(--alert-ink)">It does not qualify if it is</h4>
+      <ul class="tight" style="margin:0">
+        <li>Part-time or distance learning</li>
+        <li>Shorter than 9 months or longer than 12</li>
+        <li>A PhD, DPhil, or a research-focused MRes</li>
+        <li>Requiring more than one month of study outside the UK</li>
+        <li>Preceded by a pre-sessional course — taking even an optional one costs you the scholarship</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h4>The fine print that catches people</h4>
+    <ul class="tight">
+      <li><strong>Three <em>different</em> courses.</strong> Submitting the same course twice, or duplicating a university where the rules don't allow it, is a listed common error.</li>
+      <li><strong>MBA fee cap of <span class="mono">£22,000</span>.</strong> Chevening pays up to that; the difference is yours to find, and UK MBA fees routinely exceed it by a wide margin.</li>
+      <li><strong>London campuses of non-London universities</strong> are only allowed when the same course isn't offered at the main campus.</li>
+      <li><strong>Order matters.</strong> List them in genuine order of preference — you will be asked about the ranking at interview.</li>
+      <li><strong>Check each one in Chevening's course finder</strong> before you commit; it is the only way to confirm a specific course's eligibility.</li>
+    </ul>
+  </div>
+
+  <div class="card flat">
+    <h4>A sensible strategy</h4>
+    <p class="small" style="margin:0">Either pick three closely related courses at three different universities — which maximises the chance that at least one unconditional offer lands by July 2027 — or three complementary courses at one university you are certain about. What does not work is three unrelated subjects: it reads as someone who has not decided what they want, and the "Studying in the UK" essay becomes impossible to write convincingly.</p>
+  </div>
+</section>
+
+<!-- ============ ESSAYS ============ -->
+<section class="panel" role="tabpanel" id="p-essay" aria-labelledby="t-essay" hidden>
+  <div>
+    <h2 class="sec">Four essays and two referees</h2>
+    <p class="lede">The reading committee sees no interview, no CV narrative and no charm — only these four answers. Each is scored against one criterion, and each is capped at roughly 500 words (a 100-word minimum applies; the exact counter is shown in the form).</p>
+  </div>
+
+  <div class="card">
+    <h4>1 · Leadership and influence</h4>
+    <p class="small" style="margin-bottom:8px">Describe times you have demonstrated leadership and influenced others.</p>
+    <p class="small" style="margin:0"><strong>What fails:</strong> defining what leadership means to you. <strong>What works:</strong> two or three episodes built on STAR — situation, task, action, result — where the action is yours in the first person singular and the result carries a number. Reading committees report that "we" and "the team" are the commonest way strong candidates make themselves invisible.</p>
+  </div>
+
+  <div class="card">
+    <h4>2 · Networking and relationship building</h4>
+    <p class="small" style="margin-bottom:8px">Describe how you build and maintain relationships professionally.</p>
+    <p class="small" style="margin:0"><strong>What fails:</strong> conference attendance, LinkedIn follower counts, generic claims about "being a people person". <strong>What works:</strong> a specific relationship you built across a boundary — sector, institution, discipline, country — what it produced, and how you still use it. Then say what you intend to build in the UK, concretely.</p>
+  </div>
+
+  <div class="card">
+    <h4>3 · Studying in the UK</h4>
+    <p class="small" style="margin-bottom:8px">Why these three courses, and how do they connect your background to your plan?</p>
+    <p class="small" style="margin:0"><strong>What fails:</strong> not naming the universities, or prose lifted from a prospectus. <strong>What works:</strong> a distinct paragraph per course naming modules, a research centre or a named academic, and the specific gap in your own expertise it closes. Ranked, with a reason for the ranking.</p>
+  </div>
+
+  <div class="card">
+    <h4>4 · Career plan</h4>
+    <p class="small" style="margin-bottom:8px">What are your short-, medium- and long-term career goals, and how will the scholarship help you achieve them?</p>
+    <p class="small" style="margin:0"><strong>What fails:</strong> aspiration without a route, and a stated plan to do a PhD with no research interest behind it. <strong>What works:</strong> one concrete first role in Egypt on return, a defensible five-year step, a long-term contribution to a named problem, and a line that links it to one of Chevening's impact areas.</p>
+  </div>
+
+  <div class="klaxon">
+    <h4>AI-written essays are grounds for rejection</h4>
+    <p class="small" style="margin:0">Chevening's guidance is explicit: using AI software to generate answers to the essay questions is strictly prohibited, and presenting AI-generated content as your own is treated alongside plagiarism and fraud — automatic disqualification. Use tools to plan, to check grammar, and to rehearse; write the answers yourself, in your own voice, from your own evidence.</p>
+  </div>
+
+  <div class="card">
+    <h4>Referees</h4>
+    <ul class="tight">
+      <li><strong>Two referees</strong> — two professional, two academic, or one of each. Never a relative or a close personal friend.</li>
+      <li>At application you supply only their <strong>names, jobs and contact details</strong>.</li>
+      <li>Letters are needed <strong>only if you are invited to interview</strong>, and must reach the Chevening team <strong>no later than seven working days before</strong> the interview. Late means your application is no longer considered.</li>
+      <li>In <strong>English</strong>, addressed to the British Embassy in Cairo, uploaded by you as two separate files — Chevening will not chase your referees.</li>
+      <li>Each letter should state how long and in what capacity they have known you, when they last had contact, and speak to your leadership, networking, interpersonal skills and academic ability.</li>
+      <li>Arabic letters need the original plus a notarised English translation in a single file.</li>
+      <li>You may change referees after being shortlisted, but expect to be asked why at interview.</li>
+    </ul>
+  </div>
+
+  <div class="card flat">
+    <h4>Other listed common errors</h4>
+    <ul class="tight" style="margin:0">
+      <li>Entering the number of weeks worked incorrectly, logging the same job twice, or claiming implausible hours</li>
+      <li>Completing any part of the form in a language other than English — this makes the application ineligible</li>
+      <li>Too little research into the chosen courses</li>
+      <li>Work-experience narratives with no clear example of leadership in them</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ IMPACT ============ -->
+<section class="panel" role="tabpanel" id="p-impact" aria-labelledby="t-impact" hidden>
+  <div>
+    <h2 class="sec">The four areas of impact, matched to your CV</h2>
+    <p class="lede">Chevening frames its awards around areas of shared priority between the UK and each partner country. Anchoring your career plan to one of these — genuinely, not decoratively — is the cheapest way to make it legible to a reading committee. One of the four is unambiguously yours.</p>
+  </div>
+
+  <div class="judge">
+    <div class="j ok"><span class="m">✓</span><div>
+      <b>Promoting growth and prosperity — your area</b>
+      <span>Economic development, trade, investment, entrepreneurship, employability and the digital economy. This is where workforce development sits: your 73% placement rate, the HRDF Train to Hire partnership, and the 10% ROI contribution on an 800M SAR revenue base are all growth-and-prosperity evidence in Chevening's own language.</span>
+      <span><strong>The Egypt case to make:</strong> youth unemployment and a TVET system that does not convert training into jobs. You have run the fix at national scale in another market and hold a Presidential Labor Medal for it. <strong>Name this one.</strong></span>
+    </div></div>
+    <div class="j info"><span class="m">~</span><div>
+      <b>Developing inclusive, effective societies — a legitimate second foot, but do not name it</b>
+      <span>Governance, public service delivery, education, gender equality and inclusion. Your graduate employability programmes for job seekers genuinely sit here too, and so would any Egyptian TVET-policy work.</span>
+      <span><strong>Use it as texture inside the growth essay</strong> — who your programmes reached, which groups were excluded before — rather than as a second declared area. Applications that claim several areas read as unfocused.</span>
+    </div></div>
+    <div class="j warn"><span class="m">✗</span><div>
+      <b>Building climate resilience — no match</b>
+      <span>Water security, renewables and green hydrogen, agricultural adaptation, climate finance. Nothing in your CV connects here, and manufacturing a link (a "green skills" pivot you have never worked on) would weaken a strong application. Leave it alone.</span>
+    </div></div>
+    <div class="j warn"><span class="m">✗</span><div>
+      <b>Strengthening security and stability — no match</b>
+      <span>Peacebuilding, rule of law, institutional reform in conflict contexts, cyber security, counter-corruption. Your defence-sector training work is a delivery credential, not a security-policy one — it does not make this your area.</span>
+    </div></div>
+  </div>
+
+  <div class="note">
+    <p style="margin:0"><b>How to use this:</b> pick the one your work already sits in — for you that is growth and prosperity — and make the career-plan essay tell a single story: the problem in Egypt, your track record on it, the specific gap in your expertise, the course that closes it, and the role you return to. Do not list all four.</p>
+  </div>
+
+  <div class="card flat">
+    <h4>Worth knowing about Egypt's programme</h4>
+    <p class="small" style="margin:0">Chevening does not publish an annual award count for Egypt, and it does not restrict Egyptian applicants to particular subjects — the scholarship is open in any subject. Egypt has one of the longer-running programmes in the region, with alumni including Mahmoud El Sakka, a 1990 scholar who went on to advise the Egyptian Prime Minister. Chevening's <strong>partner awards</strong> — co-funded scholarships with universities and organisations — sometimes attract fewer applicants than the main award; it is worth checking the partner list when you choose your courses.</p>
+  </div>
+</section>
+
+<!-- ============ CHECKLIST ============ -->
+<section class="panel" role="tabpanel" id="p-check" aria-labelledby="t-check" hidden>
+  <div>
+    <h2 class="sec">Your application checklist</h2>
+    <p class="lede">Ordered the way the work actually has to happen. Ticks are saved, so you can close this and come back to it.</p>
+  </div>
+
+  <div class="card">
+    <div class="progress-head">
+      <div>
+        <div style="font-family:var(--serif); font-size:24px; font-weight:600" id="pct">0%</div>
+        <div class="small" id="cnt">0 of 28 done</div>
+      </div>
+      <div style="display:flex; align-items:center; gap:10px">
+        <span class="sync" id="sync"></span>
+        <button class="btn" id="reset" type="button">Reset</button>
+      </div>
+    </div>
+    <div class="meter"><i id="bar"></i></div>
+  </div>
+
+  <div id="checklist"></div>
+
+  <footer>
+    <p class="sources"><strong>Sources.</strong> All facts above are from Chevening's own guidance and the OECD, checked on 22 September 2026:
+      <a href="https://www.chevening.org/resource-hub/guidance/eligibility/" target="_blank" rel="noopener">Eligibility criteria</a> ·
+      <a href="https://www.chevening.org/scholarships/application-timeline/" target="_blank" rel="noopener">Application timeline</a> ·
+      <a href="https://www.chevening.org/scholarship/egypt/" target="_blank" rel="noopener">Chevening in Egypt</a> ·
+      <a href="https://www.chevening.org/resource-hub/guidance/" target="_blank" rel="noopener">Application guidance</a> ·
+      <a href="https://www.chevening.org/resource-hub/guidance/courses/" target="_blank" rel="noopener">Choosing a course</a> ·
+      <a href="https://www.chevening.org/resource-hub/guidance/references/" target="_blank" rel="noopener">References</a> ·
+      <a href="https://www.chevening.org/resource-hub/guidance/common-errors/" target="_blank" rel="noopener">Common errors</a> ·
+      <a href="https://www.chevening.org/news/reading-committee-feedback-for-applicants/" target="_blank" rel="noopener">Reading committee feedback</a> ·
+      <a href="https://www.chevening.org/faqs/what-does-a-chevening-scholarship-cover/" target="_blank" rel="noopener">What the award covers</a> ·
+      <a href="https://www.chevening.org/faqs/can-i-apply-for-a-chevening-award-if-i-am-not-living-in-my-home-country/" target="_blank" rel="noopener">Residency FAQ</a> ·
+      <a href="https://www.chevening.org/impact/areas-of-impact/" target="_blank" rel="noopener">Areas of impact</a> ·
+      <a href="https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/dac-list-of-oda-recipients.html" target="_blank" rel="noopener">OECD DAC List of ODA Recipients</a> ·
+      <a href="https://www.enic.org.uk/individuals/statement-of-comparability" target="_blank" rel="noopener">UK ENIC</a> ·
+      <a href="https://www.gla.ac.uk/international/country/egypt/" target="_blank" rel="noopener">Glasgow: Egypt</a> ·
+      <a href="https://warwick.ac.uk/study/international/countryinformation/middleeast/egypt" target="_blank" rel="noopener">Warwick: Egypt</a>.
+      Always confirm dates against chevening.org before acting on them.</p>
+  </footer>
+</section>
+
+</main>
+
+<script>
+/* ---------------- countdown ---------------- */
+(function(){
+  var DEADLINE = Date.UTC(2026, 9, 6, 11, 0, 0); /* 14:00 Riyadh, UTC+3 */
+  var elD = document.getElementById('u-d'), elH = document.getElementById('u-h'),
+      elM = document.getElementById('u-m'), elS = document.getElementById('u-s');
+  var closed = false;
+
+  function pad(n){ return n < 10 ? '0' + n : '' + n; }
+
+  function clock(){
+    if(closed) return;
+    var ms = DEADLINE - Date.now();
+    if(ms <= 0){
+      closed = true;
+      document.getElementById('clock').innerHTML =
+        '<div style="min-width:auto"><b style="font-size:17px">closed</b><i>deadline passed</i></div>';
+      document.getElementById('cd-l').innerHTML = 'the 2027/28 round<br>is no longer accepting applications';
+      var u0 = document.getElementById('urgency');
+      if(u0) u0.textContent = 'This cycle has closed. The 2028/29 round normally opens the following August — everything else on this page still applies.';
+      return;
+    }
+    var s = Math.floor(ms / 1000);
+    elD.textContent = Math.floor(s / 86400);
+    elH.textContent = pad(Math.floor(s / 3600) % 24);
+    elM.textContent = pad(Math.floor(s / 60) % 60);
+    elS.textContent = pad(s % 60);
+  }
+
+  function slow(){
+    var now = Date.now();
+    var ms = DEADLINE - now;
+    var u = document.getElementById('urgency');
+    if(u && ms > 0){
+      var days = Math.floor(ms / 86400000);
+      if(days <= 21){
+        u.innerHTML = '<strong>' + days + ' days left.</strong> Realistically that means: settle the residency question today, lock your three courses this week, draft all four essays next week, and keep the final days for revision and a submission that is not at the last minute.';
+      } else {
+        u.textContent = days + ' days left.';
+      }
+    }
+    var rows = document.querySelectorAll('#timeline .tl-row');
+    Array.prototype.forEach.call(rows, function(r){
+      r.classList.remove('done','now');
+      if(Date.parse(r.getAttribute('data-until')) < now) r.classList.add('done');
+    });
+    var next = Array.prototype.filter.call(rows, function(r){
+      return Date.parse(r.getAttribute('data-until')) >= now;
+    })[0];
+    if(next) next.classList.add('now');
+  }
+
+  clock(); slow();
+  setInterval(clock, 1000);
+  setInterval(slow, 60000);
+  document.addEventListener('visibilitychange', function(){ if(!document.hidden){ clock(); slow(); } });
+})();
+
+/* ---------------- tabs ---------------- */
+(function(){
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('[role="tab"]'));
+  function show(id){
+    tabs.forEach(function(t){
+      var sel = t.id === id;
+      t.setAttribute('aria-selected', sel ? 'true' : 'false');
+      var panel = document.getElementById(t.getAttribute('aria-controls'));
+      if(panel) panel.hidden = !sel;
+    });
+    try{ localStorage.setItem('chev-tab', id); }catch(e){}
+  }
+  tabs.forEach(function(t, i){
+    t.addEventListener('click', function(){ show(t.id); });
+    t.addEventListener('keydown', function(e){
+      var d = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+      if(!d) return;
+      e.preventDefault();
+      var n = tabs[(i + d + tabs.length) % tabs.length];
+      n.focus(); show(n.id);
+    });
+  });
+  var saved = null;
+  try{ saved = localStorage.getItem('chev-tab'); }catch(e){}
+  if(saved && document.getElementById(saved)) show(saved);
+})();
+
+/* ---------------- checklist ---------------- */
+(function(){
+  var GROUPS = [
+    { title: 'Gate 0 — settle the residency question', hint: 'blocks everything else · do it today', items: [
+      ['r1','Email the Chevening team / British Embassy Cairo: Egyptian citizen, Saudi Premium Residency, living in Riyadh','Saudi Arabia is not on the DAC List of ODA Recipients, so on the criterion as written this is a problem. Mention the May 2025 Presidential Labor Medal — it is your strongest evidence of an Egypt orientation. Get their answer in writing before investing days in essays.'],
+      ['r2','If you are moving back to Egypt, give them the dates','Residence is assessed at the time of application. Dates are the fact that can change the answer.'],
+      ['r3','Do not run the eligibility checker until you have their answer','You get four attempts, and it asks for your country of residence.'],
+      ['r4','In parallel, start a GREAT Scholarship and university-scholarship search','Neither has an ODA residency rule. GREAT needs Egyptian citizenship only, £10,000 toward tuition, applied for through the university. Not Commonwealth — Egypt is not a Commonwealth member.'],
+      ['r5','If the answer is no, diarise August 2027 for the 2028/29 round','Nothing you have built expires.']
+    ]},
+    { title: 'Gate 1 — confirm the rest of the criteria', hint: 'quick, and mostly already true', items: [
+      ['e1','Confirm your 2013 HTI bachelor’s completion date — comfortably clear of the 6 October 2024 cut-off','Done, in effect: the rule is at least two years before the deadline.'],
+      ['e2','Add up your post-2013 work hours and confirm you pass 2,800','Full-time, part-time, remote, internships and volunteering all count. Write the weeks and hours per job into a spreadsheet now — the form asks for exactly this.'],
+      ['e3','Confirm you hold no British or dual British citizenship and are not UK-resident',''],
+      ['e4','Confirm no disqualifier applies','UK government or British Council employment for you or a relative since August 2024; a previous UK government-funded scholarship.'],
+      ['e5','Locate your HTI degree certificate and arrange a notarised English translation if it is in Arabic','Needed by interview, March–April 2027 — but the translation takes time, so start it now.'],
+      ['e6','Ask each shortlisted university, by name, whether an HTI bachelor’s meets their postgraduate entry requirement','Generic "Egypt" entry pages are written with public universities in mind.'],
+      ['e7','Decide whether to order a UK ENIC Statement of Comparability','Worth it for an HTI degree — one answer, reusable across all three applications.']
+    ]},
+    { title: 'Gate 2 — choose the three courses', hint: 'this week', items: [
+      ['c1','Shortlist courses that are full-time, taught, UK-based, 9–12 months, starting autumn 2027',''],
+      ['c2','Verify each of the three in Chevening’s course finder',''],
+      ['c3','Check each university’s Egypt entry requirements and confirm your grade meets them','They differ — Glasgow reads 75% as a 2:1, Warwick reads 80%.'],
+      ['c4','Check each course’s English requirement and book IELTS if you need it','Typically IELTS Academic 6.5 overall, 5.5 minimum per component.'],
+      ['c5','Rank the three in genuine order of preference, with a reason for the ranking','']
+    ]},
+    { title: 'Gate 3 — assemble the evidence', hint: 'before you write', items: [
+      ['v1','List 3–5 leadership episodes in STAR form, each with a measurable result','Your Six Sigma and L&D project work is the natural source — those projects already have baselines and numbers attached.'],
+      ['v2','List 2–3 relationships you built that produced an outcome, and how you still use them',''],
+      ['v3','For each course, note specific modules, centres or academics and why they matter to you',''],
+      ['v4','Write your career plan as three dated steps in Egypt: first role on return, five-year step, long-term contribution','The pivot to argue: from running one institution to shaping national skills and TVET policy in Egypt.'],
+      ['v5','Choose the one Chevening impact area your plan sits in','Yours is Promoting growth and prosperity. Name one, not four.'],
+      ['v7','Draft the answer to "why a master’s, when you already founded an accredited institution?"','You will be asked this in the essay and again at interview. Name the specific gap practice cannot close.'],
+      ['v8','Ask one referee to mention the Presidential Labor Medal','Third-party verification lands harder than self-report.'],
+      ['v6','Line up two referees and ask them now','Professional and/or academic, no relatives or friends. Letters are only needed at interview stage, but ask early.']
+    ]},
+    { title: 'Gate 4 — write and submit', hint: 'deadline 6 Oct 2026, 14:00 Riyadh', items: [
+      ['w1','Register on ASAMS and save your unique access code somewhere safe',''],
+      ['w2','Pass the eligibility checker','Four attempts only — check your work-hours maths before you start.'],
+      ['w3','Draft all four essays in a separate document, ~500 words each','The form logs you out after 15 minutes of inactivity.'],
+      ['w4','Rewrite every "we" into "I" and add a number to every claim','The single most common reading-committee complaint.'],
+      ['w5','Check no AI tool wrote any part of the essays','Explicitly prohibited; treated as plagiarism.'],
+      ['w6','Have one person who knows your work read all four essays',''],
+      ['w7','Enter education and work history — no duplicated jobs, no duplicated courses',''],
+      ['w8','Enter both referees’ names, jobs and contact details',''],
+      ['w9','Submit at least 24 hours before 14:00 Riyadh on 6 October 2026','No edits are possible after submission.']
+    ]},
+    { title: 'After submission', hint: 'Oct 2026 – Jul 2027', items: [
+      ['a1','Apply to the three UK universities from winter 2026/27 — do not wait for the Chevening result','Offers take weeks; the Chevening result only arrives mid-June 2027.'],
+      ['a2','Watch for the interview shortlist in mid-February 2027',''],
+      ['a3','Collect both reference letters in English and upload them at least 7 working days before your interview','Late references end the application.'],
+      ['a4','Have your degree certificate ready for the interview',''],
+      ['a5','Secure an unconditional offer by 17:00 BST on 8 July 2027','']
+    ]}
+  ];
+
+  var ALL = [];
+  GROUPS.forEach(function(g){ g.items.forEach(function(it){ ALL.push(it[0]); }); });
+  var TOTAL = ALL.length;
+  var LS = 'chev-checklist-v1';
+  var state = {};
+  var db = null, ref = null, writeTimer = null;
+
+  try{
+    var raw = localStorage.getItem(LS);
+    if(raw) state = JSON.parse(raw) || {};
+  }catch(e){ state = {}; }
+
+  var host = document.getElementById('checklist');
+  GROUPS.forEach(function(g){
+    var wrap = document.createElement('div');
+    wrap.className = 'cl-group';
+    var h = document.createElement('h3');
+    h.innerHTML = '';
+    h.appendChild(document.createTextNode(g.title));
+    var em = document.createElement('em');
+    em.textContent = g.hint;
+    h.appendChild(em);
+    wrap.appendChild(h);
+    g.items.forEach(function(it){
+      var row = document.createElement('div');
+      row.className = 'cl-item';
+      row.id = 'row-' + it[0];
+      var cb = document.createElement('input');
+      cb.type = 'checkbox'; cb.id = 'cb-' + it[0];
+      cb.addEventListener('change', function(){
+        state[it[0]] = cb.checked;
+        persist();
+        paint();
+      });
+      var col = document.createElement('div');
+      var lab = document.createElement('label');
+      lab.setAttribute('for', cb.id);
+      lab.textContent = it[1];
+      col.appendChild(lab);
+      if(it[2]){
+        var why = document.createElement('div');
+        why.className = 'why';
+        why.textContent = it[2];
+        col.appendChild(why);
+      }
+      row.appendChild(cb); row.appendChild(col);
+      wrap.appendChild(row);
+    });
+    host.appendChild(wrap);
+  });
+
+  function paint(){
+    var done = 0;
+    ALL.forEach(function(id){
+      var on = !!state[id];
+      if(on) done++;
+      var cb = document.getElementById('cb-' + id);
+      var row = document.getElementById('row-' + id);
+      if(cb) cb.checked = on;
+      if(row) row.classList.toggle('on', on);
+    });
+    var pct = Math.round(done / TOTAL * 100);
+    document.getElementById('pct').textContent = pct + '%';
+    document.getElementById('cnt').textContent = done + ' of ' + TOTAL + ' done';
+    document.getElementById('bar').style.width = pct + '%';
+    document.getElementById('tabcount').textContent = done + '/' + TOTAL;
+  }
+
+  function persist(){
+    try{ localStorage.setItem(LS, JSON.stringify(state)); }catch(e){}
+    if(!ref) return;
+    clearTimeout(writeTimer);
+    writeTimer = setTimeout(function(){
+      var snapshot = {};
+      ALL.forEach(function(id){ if(state[id]) snapshot[id] = true; });
+      ref.set({ checked: snapshot, updatedAt: new Date().toISOString() })
+        .then(function(){ setSync('saved'); })
+        .catch(function(){ setSync('saved on this device only'); });
+    }, 400);
+  }
+
+  function setSync(t){ var el = document.getElementById('sync'); if(el) el.textContent = t; }
+
+  document.getElementById('reset').addEventListener('click', function(){
+    var b = this;
+    if(b.dataset.armed !== '1'){
+      b.dataset.armed = '1'; b.textContent = 'Reset — sure?';
+      setTimeout(function(){ b.dataset.armed = ''; b.textContent = 'Reset'; }, 4000);
+      return;
+    }
+    b.dataset.armed = ''; b.textContent = 'Reset';
+    state = {}; persist(); paint();
+  });
+
+  paint();
+
+  /* optional cross-device persistence */
+  (function(){
+    if(!(window.claude && typeof window.claude.use === 'function')) return;
+    window.claude.use('db').then(function(d){
+      if(!d) return;
+      db = d;
+      ref = db.doc('checklist/state');
+      ref.onSnapshot(function(snap){
+        if(!snap.exists) return;
+        var data = snap.data() || {};
+        var incoming = data.checked || {};
+        var changed = false;
+        ALL.forEach(function(id){
+          var on = !!incoming[id];
+          if(!!state[id] !== on){ state[id] = on; changed = true; }
+        });
+        if(changed){
+          try{ localStorage.setItem(LS, JSON.stringify(state)); }catch(e){}
+          paint();
+        }
+        setSync('saved');
+      }, function(){ setSync(''); });
+    }).catch(function(){});
+  })();
+})();
+</script>
+</body>
+</html>
